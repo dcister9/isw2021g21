@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
   <head>
@@ -304,62 +305,12 @@
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <form class="form-horizontal" action="../Controller/crear_acta.php" method="post">
-                  <div class="card-body">
-                    <h4 class="card-title">Crear Acta comunitaria </h4>
-                    <div class="form-group row">
-                      <label
-                        for="fname"
-                        class="col-sm-3 text-end control-label col-form-label"
-                        >Tema reunion</label
-                      >
-                      <div class="col-sm-9">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="fname"
-                          name="fname"
-                          placeholder="Titulo"
-                          required
-                        />
-                      </div>
-                    </div>
-
-                   <!-- <div class="form-group row">
-                      <label
-                        for="lname"
-                        class="col-sm-3 text-end control-label col-form-label"
-                        >Fecha reunion</label
-                      >
-                      <div class="col-sm-9">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="lname"
-                          placeholder="dd/mm/aa"
-                        />
-                      </div>
-                    </div>
-                      -->
-                    <div class="form-group row">
-                        <label
-                          for="cono1"
-                          class="col-sm-3 text-end control-label col-form-label"
-                          >Información de reunion</label
-                        >
-                        <div class="col-sm-9">
-                          <textarea class="form-control"id="informacion" name="informacion" required></textarea>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="border-top">
-                    <div class="card-body">
-                      <button type="submit" class="btn btn-primary" href="../Controller/crear_acta.php">
-                        Guardar
-                      </button>
-                    </div>
-                  </div>
-                </form>
+              <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Registro Ingresado!</h4>
+                <p>Has ingresado correctamente en el sistema el acta de la reunión.</p>
+                <hr>
+                <p class="mb-0">Acta registrada.</p>
+              </div>
               </div>
           <!-- ============================================================== -->
           <!-- End PAge Content -->
